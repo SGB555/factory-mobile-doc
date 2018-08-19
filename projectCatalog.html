@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>项目文件结构 | 巨牛云厂移动端项目文档</title>
+    <meta name="description" content="本项目是基于vue.js配合cordova框架搭建的混生APP">
+    
+    
+    <link rel="preload" href="/factory-mobile-doc/assets/css/0.styles.4a90dada.css" as="style"><link rel="preload" href="/factory-mobile-doc/assets/js/app.aff70acf.js" as="script"><link rel="preload" href="/factory-mobile-doc/assets/js/20.95c936e9.js" as="script"><link rel="prefetch" href="/factory-mobile-doc/assets/js/9.059e0dd0.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/2.cda51ec0.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/3.ac8b3d85.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/4.ffad4335.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/5.5cc7e167.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/6.f1cd0ca8.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/7.41ce1414.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/8.2854115d.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/10.94437250.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/11.4925e643.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/12.c8db2ab0.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/13.7f5f0df0.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/14.4105e8ca.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/15.03193ea6.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/16.d97a041f.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/17.0b18cba4.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/18.4732afaa.js"><link rel="prefetch" href="/factory-mobile-doc/assets/js/19.2f89b45f.js">
+    <link rel="stylesheet" href="/factory-mobile-doc/assets/css/0.styles.4a90dada.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/factory-mobile-doc/" class="home-link router-link-active"><!----> <span class="site-name">巨牛云厂移动端项目文档</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/factory-mobile-doc/" class="sidebar-link">Home</a></li><li><a href="/factory-mobile-doc/projectCatalog.html" class="active sidebar-link">项目文件结构</a></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>组件/common</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/factory-mobile-doc/components/common/acionItem.html" class="sidebar-link">action-pop</a></li><li><a href="/factory-mobile-doc/components/common/checkList.html" class="sidebar-link">check-list</a></li><li><a href="/factory-mobile-doc/components/common/checkBox.html" class="sidebar-link">check-box</a></li><li><a href="/factory-mobile-doc/components/common/dateSelector.html" class="sidebar-link">date-selector</a></li><li><a href="/factory-mobile-doc/components/common/header.html" class="sidebar-link">header</a></li><li><a href="/factory-mobile-doc/components/common/limitDataInput.html" class="sidebar-link">limit-data-input</a></li><li><a href="/factory-mobile-doc/components/common/listItem.html" class="sidebar-link">list-item</a></li><li><a href="/factory-mobile-doc/components/common/picUpload.html" class="sidebar-link">pic-upload</a></li><li><a href="/factory-mobile-doc/components/common/popupRadio.html" class="sidebar-link">popup-radio</a></li><li><a href="/factory-mobile-doc/components/common/submitFooter.html" class="sidebar-link">submit-footer</a></li><li><a href="/factory-mobile-doc/components/common/radio.html" class="sidebar-link">radio</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>组件/home</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/factory-mobile-doc/components/home/appHeader.html" class="sidebar-link">app-header</a></li><li><a href="/factory-mobile-doc/components/home/appNavBar.html" class="sidebar-link">app-nav</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="项目文件结构"><a href="#项目文件结构" aria-hidden="true" class="header-anchor">#</a> 项目文件结构</h1> <p>本项目是通过vue-cli生成的，同时含有cordova构建项目需要的文件</p> <div class="language- extra-class"><pre class="language-text"><code>factory-mobile
+├── 分支热更新配置说明.txt
+├── node_modules
+├── package.json
+├── .gitignore
+├── cordova-hcp.json // cordova项目热更新配置文件
+├── config.xml // cordova项目热更新配置文件
+├── .gitattributes
+├── .editorconfig
+├── .babelrc
+├── .babelrc
+├── www/ // cordova构建项目打包出的文件夹
+├── static/ // cordova构建项目打包出的文件夹
+├── src
+    ├── api // 网络请求(在写新请求的时候根据功能模块可以分出新文件，对于类似通用的请求可以先查找是否已经写入避免重复声明)
+        ├── index.js // 项目通用请求 也是一份过于冗余的文件
+        ├── ligation.js // 扎号相关请求
+        ├── material.js // 物料相关请求
+        └── wym.js // 唯一码相关请求
+    ├── assets
+        ├── icon // 项目中使用的小icon均放至此文件夹
+        ├── img // 较大的图片
+        ├── style
+            ├── common.less // 通用样式
+            ├── el-table.less // 用于修改引入的element-ui的table组件的样式文件
+            ├── icon.less // 项目中用到的图标都是在这个文件引入放置在../icon 的小图标，具体可参照源代码
+            ├── reset.less 
+            ├── resetVux.less // 重置vux的样式文件 
+            ├── var.less // 声明的样式通用变量 
+            └── warning.less
+        └── svg/ 
+    ├── components 
+        ├── common // 通用组件
+        ├── home // home.vue通过头部和导航栏
+        ├── ligation // 扎号通用组件
+        ├── material-buy // 物料采购相关组件
+        ├── material-delivery // 送料相关组件
+        ├── material-file // 物料档案相关组件
+        ├── message // 消息页相关组件
+        ├── mission // 工单相关组件
+        ├── node // 工单节点相关组件
+        ├── report // 上报页相关组件
+        ├── report-record // 上报记录相关组件
+    ├── config // 各种配置文件
+        ├── axios.js // axios配置文件
+        ├── busEvent.js // umm.. 这之前同事留下的坑 既然我们都使用了vuex了就不需要eventbus来管理状态了，统一使用vuex吧
+        ├── index.js // 上传照片配置文件
+        └── rongyun.js // 融云配置文件
+    ├── directives/ 自定义指令
+    ├── router
+        ├── ligation /
+        ├── material /
+        ├── material-arrive /
+        ├── material-buy /
+        ├── material-delivery /
+        ├── material-file /
+        ├── material-refund /
+        ├── mission /
+        ├── node /
+        ├── setting /
+        └── index.js
+    ├── utils // 工具函数
+        └── aboutTable.js // 用于构建SKU表格所需的数据结构
+        ├── utils // 工具函数
+        └── aboutTable.js // 用于构建SKU表格所需的数据结构
+    ├── views / 各页面文件夹
+    ├── vuex
+    ├── app.vue
+    └── main.js
+├── res / app 图片以及启动页
+├── plugins / cordova 插件
+├── platforms / cordova ios和安卓打包所需文件
+├── node_modules
+├── config // 4个环境的请求BASE_URL
+└── build // webpack相关文件
+</code></pre></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/factory-mobile-doc/" class="prev router-link-active">
+          Home
+        </a></span> <span class="next"><a href="/factory-mobile-doc/components/common/acionItem.html">
+          action-pop
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/factory-mobile-doc/assets/js/20.95c936e9.js" defer></script><script src="/factory-mobile-doc/assets/js/app.aff70acf.js" defer></script>
+  </body>
+</html>
